@@ -3,7 +3,6 @@ import { glob } from 'glob';
 import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
-import { string } from 'vite-plugin-string';
 
 export default defineConfig(({ command }) => {
   return {
@@ -11,6 +10,7 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    base: '/cosmozoo-portfolio/',
     build: {
       sourcemap: true,
       rollupOptions: {
