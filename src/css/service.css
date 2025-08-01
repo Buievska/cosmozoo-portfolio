@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: black;
   color: #fff;
   font-weight: 400;
@@ -149,7 +149,7 @@ section {
   }
 
   .header-item-title {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -167,7 +167,7 @@ section {
     width: 164px;
     height: 56px;
     background: #fff;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -182,9 +182,147 @@ section {
   }
 }
 
+/* --- СТИЛІ ДЛЯ МОБІЛЬНОГО МЕНЮ--- */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateX(100%);
+  transition: transform 0.35s ease-in-out;
+}
+
+.mobile-nav.is-open {
+  transform: translateX(0);
+}
+
+.mobile-nav .close-btn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.menu-link {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+
+.menu-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.mobile-nav .cta-button {
+  background-color: #fff;
+  color: #000;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.menu-list-sm {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.menu-item-sm {
+  border-radius: 100%;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-icon-ins {
+  fill: transparent;
+  stroke: #000;
+}
+
+@media screen and (min-width: 768px) {
+  /* Тепер збільшуємо елементи всередині самого виїжджаючого меню */
+  .mobile-nav ul li a {
+    font-size: 2rem; /* ~32px */
+  }
+
+  .mobile-nav .cta-button {
+    padding: 20px 40px;
+    font-size: 1.1rem; /* ~18px */
+  }
+
+  .mobile-nav .social-icons a {
+    width: 55px;
+    height: 55px;
+    font-size: 1.5rem; /* ~24px */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* --- Десктопна версія (тут вже показуємо повне меню) --- */
+
+  .header-section .container {
+    padding: 24px 160px;
+  }
+
+  /* Ховаємо бургер на десктопі */
+  .header-menu {
+    display: none;
+  }
+
+  /* Налаштовуємо контейнер навігації */
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Показуємо список посилань і кнопку */
+  .header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header-item-title {
+    font-size: 16px;
+  }
+
+  .header-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+  }
+}
+
 /* Section one */
 .main-title {
-  font-family: "DM Serif Display", sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 1.12;
@@ -209,7 +347,7 @@ section {
 }
 
 .main-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -230,7 +368,7 @@ section {
 }
 
 .main-text-btn {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -266,7 +404,7 @@ section {
 /* Section two */
 
 .service-main-title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.5;
@@ -277,7 +415,7 @@ section {
 }
 
 .service-text {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.24;
@@ -287,7 +425,7 @@ section {
 
 .service-photo-title {
   margin-top: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.58;
@@ -312,7 +450,7 @@ section {
 }
 
 .service-item-title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.87;
@@ -322,7 +460,7 @@ section {
 }
 
 .service-item-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.24;
@@ -333,7 +471,7 @@ section {
 
 .service-smm-title {
   margin-top: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.58;
@@ -358,7 +496,7 @@ section {
 }
 
 .service-list-title {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.87;
@@ -368,7 +506,7 @@ section {
 }
 
 .service-list-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.24;
@@ -442,7 +580,7 @@ section {
 .auxiliary-text-line-span {
   display: inline-block;
   padding-right: 2rem;
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-size: clamp(24px, 5vw, 40px);
   color: black;
 }
@@ -457,7 +595,7 @@ section {
 }
 
 .auxiliary-back {
-  background-image: url("/img/home/background-six.jpg");
+  background-image: url('/img/home/background-six.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -468,7 +606,7 @@ section {
 }
 
 .auxiliary-title {
-  font-family: "DM Serif Display", serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: 400;
   font-size: 46px;
   line-height: 1.12;
@@ -482,7 +620,7 @@ section {
 }
 
 .auxiliary-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.62;
@@ -506,7 +644,7 @@ section {
 }
 
 .auxiliary-text-btn {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -582,7 +720,7 @@ section {
 }
 
 .footer-nav-link {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.45;
@@ -623,7 +761,7 @@ section {
 }
 
 .footer-addres-link {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.57;
@@ -636,7 +774,7 @@ section {
 }
 
 .footer-privacy-text {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;
@@ -651,7 +789,7 @@ section {
 }
 
 .footer-privacy-link {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.57;

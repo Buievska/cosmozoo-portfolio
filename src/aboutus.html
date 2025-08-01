@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/src/css/aboutus.css" />
+    <link rel="stylesheet" href="./css/aboutus.css" />
   </head>
   <body>
     <header class="header-section">
@@ -26,7 +26,7 @@
         <nav class="header-nav">
           <a href="/index.html" class="header-logo-link">
             <svg class="header-logo" width="139" height="17">
-              <use href="/img/symbol-defs.svg#icon-logo-cosmozoo"></use>
+              <use href="./img/symbol-defs.svg#icon-logo-cosmozoo"></use>
             </svg>
           </a>
           <ul class="header-list">
@@ -52,11 +52,83 @@
         </nav>
         <button type="menu" class="header-menu">
           <svg class="header-menu-link" width="38" height="29">
-            <use href="/img/symbol-defs.svg#icon-menu"></use>
+            <use href="./img/symbol-defs.svg#icon-menu"></use>
           </svg>
         </button>
       </div>
     </header>
+
+    <nav class="mobile-nav">
+      <button class="close-btn" aria-label="Закрити меню">&times;</button>
+
+      <ul class="menu-link">
+        <li><a href="./index.html" class="menu-text">Home</a></li>
+        <li><a href="./aboutus.html" class="menu-text">About Us</a></li>
+        <li><a href="./services.html" class="menu-text">Services</a></li>
+        <li><a href="./portfolio.html" class="menu-text">Portfolios</a></li>
+        <li><a href="./contact.html" class="menu-text">Contact Us</a></li>
+      </ul>
+
+      <a href="#" class="cta-button">Book a Demo</a>
+
+      <ul class="menu-list-sm">
+        <li class="menu-item-sm">
+          <a
+            href="https://www.instagram.com/cosmozoocinema/"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon-ins" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-instagram-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.facebook.com/share/16rAv4ntyb/?mibextid=wwXIfr"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.tiktok.com/@cosmozoo3?is_from_webapp=1&sender_device=pc"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-tiktok-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.youtube.com/@cosmozoo-b8r"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-youtube-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.threads.com/@cosmozoocinema"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-threads-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
     <main>
       <!-- Section one -->
@@ -68,7 +140,7 @@
           </h1>
           <img
             class="main-img"
-            src="/img/about-us/about-us-main.jpg"
+            src="./img/about-us/about-us-main.jpg"
             alt="Two people"
             width="378"
             height="386"
@@ -119,7 +191,7 @@
 
           <img
             class="information-img"
-            src="/img/about-us/information.jpg"
+            src="./img/about-us/information.jpg"
             alt="Photographer"
             width="378"
             height="393"
@@ -131,7 +203,7 @@
       <section class="reviews-section">
         <div class="container">
           <svg class="reviews-icon" width="40" height="39">
-            <use href="/img/symbol-defs.svg#icon-reviews-icon" />
+            <use href="./img/symbol-defs.svg#icon-reviews-icon" />
           </svg>
           <h2 class="reviews-title">Not Just Pretty Content. It Works.</h2>
           <div class="reviews-container-all">
@@ -144,7 +216,7 @@
               <div class="reviews-container-user">
                 <img
                   class="reviews-user"
-                  src="/img/about-us/User.jpg"
+                  src="./img/about-us/User.jpg"
                   alt="User foto"
                   width="56"
                   height="56"
@@ -193,7 +265,7 @@
             <a href="" class="auxiliary-btn">
               <p class="auxiliary-text-btn">Contact Us</p>
               <svg class="arow-icon" width="24" height="24">
-                <use href="/img/symbol-defs.svg#icon-arrow-down"></use>
+                <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
               </svg>
             </a>
           </div>
@@ -203,11 +275,9 @@
     <footer class="footer-section">
       <div class="container">
         <div class="footer-logo-block">
-          <a href="/index.html" class="footer-logo-link">
+          <a href="./index.html" class="footer-logo-link">
             <svg class="footer-logo" width="210" height="69">
-              <use
-                href="/cosmozoo_project/assets/symbol-defs-DSj03hhM.svg#icon-logo-cosmozoo"
-              ></use>
+              <use href="./img/symbol-defs.svg#icon-logo-cosmozoo"></use>
             </svg>
           </a>
         </div>
@@ -215,27 +285,19 @@
         <nav class="footer-nav">
           <ul class="footer-nav-list">
             <li class="footer-nav-item">
-              <a href="/index.html" class="footer-nav-link">Home</a>
+              <a href="./index.html" class="footer-nav-link">Home</a>
             </li>
             <li class="footer-nav-item">
-              <a href="/src/docs/aboutus.html" class="footer-nav-link"
-                >About Us</a
-              >
+              <a href="./aboutus.html" class="footer-nav-link">About Us</a>
             </li>
             <li class="footer-nav-item">
-              <a href="/src/docs/services.html" class="footer-nav-link"
-                >Services</a
-              >
+              <a href="./services.html" class="footer-nav-link">Services</a>
             </li>
             <li class="footer-nav-item">
-              <a href="/src/docs/portfolio.html" class="footer-nav-link"
-                >Portfolios</a
-              >
+              <a href="./portfolio.html" class="footer-nav-link">Portfolios</a>
             </li>
             <li class="footer-nav-item">
-              <a href="/src/docs/contact.html" class="footer-nav-link"
-                >Contact Us</a
-              >
+              <a href="./contact.html" class="footer-nav-link">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -243,17 +305,13 @@
           <li class="footer-item-media">
             <a href="" target="_blank">
               <svg class="footer-icon" width="24" height="24">
-                <use
-                  href="/cosmozoo_project/assets/symbol-defs-DSj03hhM.svg#icon-instagram-1"
-                ></use></svg
+                <use href="./img/symbol-defs.svg#icon-instagram-1"></use></svg
             ></a>
           </li>
           <li class="footer-item-media">
             <a href="" target="_blank">
               <svg class="footer-icon" width="24" height="24">
-                <use
-                  href="/cosmozoo_project/assets/symbol-defs-DSj03hhM.svg#icon-facebook-1"
-                ></use></svg
+                <use href="./img/symbol-defs.svg#icon-facebook-1"></use></svg
             ></a>
           </li>
         </ul>
@@ -305,5 +363,6 @@
         </div>
       </div>
     </footer>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

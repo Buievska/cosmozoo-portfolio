@@ -1,12 +1,14 @@
-document.addEventListener("DOMContentLoaded", () => {
+import { shoots } from './data.js';
+
+document.addEventListener('DOMContentLoaded', () => {
   // --- 1. Знаходимо елементи на сторінці ---
-  const worksContainer = document.getElementById("works-container");
-  const loadMoreBtn = document.getElementById("load-more-btn");
+  const worksContainer = document.getElementById('works-container');
+  const loadMoreBtn = document.getElementById('load-more-btn');
 
   // Перевіряємо, чи існують елементи на сторінці
   if (!worksContainer || !loadMoreBtn) {
     console.error(
-      "Необхідні елементи (works-container або load-more-btn) не знайдені."
+      'Необхідні елементи (works-container або load-more-btn) не знайдені.'
     );
     return;
   }
@@ -17,9 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // --- 3. Функція для створення однієї картки ---
   function createWorkCard(shoot) {
-    const link = document.createElement("a");
+    const link = document.createElement('a');
     link.href = `shoot.html?id=${shoot.id}`;
-    link.classList.add("work-card");
+    link.classList.add('work-card');
 
     // Перевіряємо, чи існують шляхи для планшета/десктопа
     const tabletSrc = shoot.mainImageTablet
@@ -49,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function loadWorks() {
     const worksToLoad = shoots.slice(currentItems, currentItems + itemsPerLoad);
 
-    worksToLoad.forEach((shoot) => {
+    worksToLoad.forEach(shoot => {
       const card = createWorkCard(shoot);
       worksContainer.appendChild(card);
     });
@@ -58,13 +60,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Ховаємо кнопку, якщо більше немає робіт
     if (currentItems >= shoots.length) {
-      loadMoreBtn.style.display = "none";
+      loadMoreBtn.style.display = 'none';
     }
   }
 
   // --- 5. Запуск ---
   // Обробник кліку для кнопки
-  loadMoreBtn.addEventListener("click", loadWorks);
+  loadMoreBtn.addEventListener('click', loadWorks);
 
   // Завантажуємо першу порцію (6 карток) при завантаженні сторінки
   loadWorks();
