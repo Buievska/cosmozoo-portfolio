@@ -155,6 +155,34 @@ section {
     line-height: 1.5;
     letter-spacing: -0.03em;
     color: #fff;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+
+  .header-item-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+  }
+
+  .header-item-title:hover,
+  .header-item-title:focus {
+    color: #fff;
+    outline: none;
+  }
+
+  .header-item-title:hover::after,
+  .header-item-title:focus::after {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 
   .header-btn {
@@ -175,6 +203,16 @@ section {
     color: #000;
     padding: 16px 32px;
     white-space: nowrap;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+
+  .header-btn:hover,
+  .header-btn:focus {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.05);
+    outline: 1px solid #fff;
+    outline-offset: 2px;
   }
 
   .header-menu {
@@ -182,7 +220,7 @@ section {
   }
 }
 
-/* --- СТИЛІ ДЛЯ МОБІЛЬНОГО МЕНЮ--- */
+/* --- Mobile menu--- */
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -266,36 +304,31 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  /* Тепер збільшуємо елементи всередині самого виїжджаючого меню */
   .mobile-nav ul li a {
-    font-size: 2rem; /* ~32px */
+    font-size: 32px;
   }
 
   .mobile-nav .cta-button {
     padding: 20px 40px;
-    font-size: 1.1rem; /* ~18px */
+    font-size: 18px;
   }
 
   .mobile-nav .social-icons a {
     width: 55px;
     height: 55px;
-    font-size: 1.5rem; /* ~24px */
+    font-size: 24px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  /* --- Десктопна версія (тут вже показуємо повне меню) --- */
-
   .header-section .container {
     padding: 24px 160px;
   }
 
-  /* Ховаємо бургер на десктопі */
   .header-menu {
     display: none;
   }
 
-  /* Налаштовуємо контейнер навігації */
   .header-nav {
     display: flex;
     align-items: center;
@@ -303,7 +336,6 @@ section {
     width: 100%;
   }
 
-  /* Показуємо список посилань і кнопку */
   .header-list {
     display: flex;
     align-items: center;
@@ -317,6 +349,37 @@ section {
   .header-btn {
     display: inline-flex;
     padding: 16px 32px;
+  }
+}
+
+/* Calendar */
+
+.calender-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.calendar-text {
+  font-family: 'Inter', sans-serif;
+  width: 410px;
+  text-align: center;
+  line-height: 1.62;
+  font-size: 16px;
+  text-align: center;
+  color: #d5d5d5;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .calendar-text {
+    width: 460px;
   }
 }
 

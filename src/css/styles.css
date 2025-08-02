@@ -155,6 +155,34 @@ section {
     line-height: 1.5;
     letter-spacing: -0.03em;
     color: #fff;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+
+  .header-item-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+  }
+
+  .header-item-title:hover,
+  .header-item-title:focus {
+    color: #fff;
+    outline: none;
+  }
+
+  .header-item-title:hover::after,
+  .header-item-title:focus::after {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 
   .header-btn {
@@ -175,6 +203,16 @@ section {
     color: #000;
     padding: 16px 32px;
     white-space: nowrap;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+
+  .header-btn:hover,
+  .header-btn:focus {
+    background-color: #000; /* Робимо фон темнішим, але не чорним */
+    color: #fff; /* Робимо текст білим */
+    transform: scale(1.05); /* Злегка збільшуємо кнопку */
+    outline: 1px solid #fff; /* Додаємо білий контур для кращої доступності фокусу */
+    outline-offset: 2px;
   }
 
   .header-menu {
