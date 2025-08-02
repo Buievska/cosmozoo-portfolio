@@ -18,8 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/cosmozoo-portfolio/assets/main-VHzxEShR.js"></script>
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/index-tOoJ8pwx.css">
+    <script type="module" crossorigin src="/cosmozoo-portfolio/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/main-VHzxEShR.js">
+    <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/data-ft7-xUXK.js">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/index-juz5gvhJ.css">
   </head>
   <body>
     <header class="header-section">
@@ -49,7 +51,7 @@
               <a href="./contact.html" class="header-item-title">Contact Us</a>
             </li>
           </ul>
-          <button type="button" class="header-btn">Book A Demo</button>
+          <a href="./calendar.html" class="header-btn">Book A Demo</a>
         </nav>
         <button type="button" class="header-menu">
           <svg class="header-menu-link" width="38" height="29">
@@ -70,7 +72,7 @@
         <li><a href="./contact.html" class="menu-text">Contact Us</a></li>
       </ul>
 
-      <a href="#" class="cta-button">Book a Demo</a>
+      <a href="./calendar.html" class="cta-button">Book a Demo</a>
 
       <ul class="menu-list-sm">
         <li class="menu-item-sm">
@@ -173,7 +175,7 @@
               Based in LA, CosmoZoo provides full-scope content production and
               brand support — from the first idea to the final post.
             </p>
-            <a href="" class="features-button-tablet">
+            <a href="./services.html" class="features-button-tablet">
               <p class="features-text-button">Learn more</p>
               <svg class="arow-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
@@ -199,7 +201,7 @@
               </p>
             </li>
           </ul>
-          <a href="" class="features-button-mobile">
+          <a href="./services.html" class="features-button-mobile">
             <p class="features-text-button">Learn more</p>
             <svg class="arow-icon" width="24" height="24">
               <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
@@ -297,29 +299,15 @@
                 >
               </h2>
             </div>
-            <a href="" class="portfolio-home-link-tablet">
+            <a href="./portfolio.html" class="portfolio-home-link-tablet">
               <p class="portfolio-home-link-text">View All Works</p>
               <svg class="arow-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
               </svg>
             </a>
           </div>
-
-          <ul class="portfolio-home-list">
-            <li class="portfolio-home-item-one">
-              <a href="" class="portfolio-home-btn">
-                <p class="portfolio-home-title-btn">Tea & Tatami</p>
-                <p class="portfolio-home-text-btn">View details</p>
-              </a>
-            </li>
-            <li class="portfolio-home-item-two">
-              <a href="" class="portfolio-home-btn">
-                <p class="portfolio-home-title-btn">Sand Season</p>
-                <p class="portfolio-home-text-btn">View details</p>
-              </a>
-            </li>
-          </ul>
-          <a href="" class="portfolio-home-link-mobile">
+          <ul class="portfolio-home-list"></ul>
+          <a href="./portfolio.html" class="portfolio-home-link-mobile">
             <p class="portfolio-home-link-text">View All Works</p>
             <svg class="arow-icon" width="24" height="24">
               <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
@@ -350,7 +338,7 @@
               We create experiences that fuel connections between brands and the
               people vital to their success.
             </p>
-            <a href="" class="auxiliary-btn">
+            <a href="./contact.html" class="auxiliary-btn">
               <p class="auxiliary-text-btn">Contact Us</p>
               <svg class="arow-icon" width="24" height="24">
                 <use href="./img/symbol-defs.svg#icon-arrow-down"></use>
@@ -391,16 +379,45 @@
         </nav>
         <ul class="footer-list-media">
           <li class="footer-item-media">
-            <a href="" target="_blank">
-              <svg class="footer-icon" width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-instagram-1"></use></svg
-            ></a>
+            <a href="https://www.instagram.com/cosmozoocinema/" target="_blank">
+              <svg class="menu-icon-ins" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-instagram-1"></use>
+              </svg>
+            </a>
           </li>
           <li class="footer-item-media">
-            <a href="" target="_blank">
-              <svg class="footer-icon" width="24" height="24">
-                <use href="./img/symbol-defs.svg#icon-facebook-1"></use></svg
-            ></a>
+            <a
+              href="https://www.facebook.com/share/16rAv4ntyb/?mibextid=wwXIfr"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://www.tiktok.com/@cosmozoo3?is_from_webapp=1&sender_device=pc"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-tiktok-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a href="https://www.youtube.com/@cosmozoo-b8r" target="_blank">
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-youtube-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a href="https://www.threads.com/@cosmozoocinema" target="_blank">
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-threads-icon"></use>
+              </svg>
+            </a>
           </li>
         </ul>
         <address class="footer-addres">
@@ -420,10 +437,10 @@
             </li>
             <li class="footer-addres-item">
               <a
-                href="mailto:cosmozoo@gmail.com"
+                href="mailto:cosmozoo.production@gmail.com"
                 class="footer-addres-link"
                 target="_blank"
-                >cosmozoo@gmail.com</a
+                >cosmozoo.production@gmail.com</a
               >
             </li>
           </ul>

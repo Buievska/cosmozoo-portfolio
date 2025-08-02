@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Cosmozoo</title>
+    <title>Book a Demo</title>
     <link rel="icon" href="/cosmozoo-portfolio/assets/favicon-C6NgXPU7.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -18,10 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/cosmozoo-portfolio/portfolio.js"></script>
-    <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/main-VHzxEShR.js">
-    <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/data-ft7-xUXK.js">
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/portfolio-C-a7c8RX.css">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/calendar-aomRnIku.css">
   </head>
   <body>
     <header class="header-section">
@@ -53,7 +50,7 @@
           </ul>
           <a href="./calendar.html" class="header-btn">Book A Demo</a>
         </nav>
-        <button type="menu" class="header-menu">
+        <button type="button" class="header-menu">
           <svg class="header-menu-link" width="38" height="29">
             <use href="./img/symbol-defs.svg#icon-menu"></use>
           </svg>
@@ -134,30 +131,24 @@
     </nav>
 
     <main>
-      <section class="works-section">
-        <div class="container">
-          <h1 class="works-title">Work That Works</h1>
-          <h2 class="works-second-title">
-            We don't just create pretty things — we create content that
-            delivers.<br /><span class="works-second-title-color"
-              >Here's a peek at what we've done for brands, creators, and
-              campaigns.</span
-            >
-          </h2>
-
-          <div id="works-container" class="works-grid"></div>
-
-          <button id="load-more-btn" class="load-more-button">
-            Load more Works
-          </button>
-        </div>
-      </section>
+      <!-- Calendly inline widget begin -->
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/cosmozoo-production/30min?background_color=000000&text_color=ffffff&primary_color=5e9dff"
+        style="min-width: 320px; height: 700px"
+      ></div>
+      <script
+        type="text/javascript"
+        src="https://assets.calendly.com/assets/external/widget.js"
+        async
+      ></script>
+      <!-- Calendly inline widget end -->
     </main>
 
     <footer class="footer-section">
       <div class="container">
         <div class="footer-logo-block">
-          <a href="./index.html" class="footer-logo-link">
+          <a href="/index.html" class="footer-logo-link">
             <svg class="footer-logo" width="210" height="69">
               <use href="./img/symbol-defs.svg#icon-logo-cosmozoo"></use>
             </svg>
@@ -274,6 +265,5 @@
         </div>
       </div>
     </footer>
-
   </body>
 </html>
