@@ -1187,18 +1187,13 @@ section {
 }
 
 .footer-item-media {
+  border-radius: 100%;
+  background-color: #fff;
   width: 40px;
   height: 40px;
-  background-color: #fff;
-  border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.footer-icon {
-  fill: transparent;
-  stroke: #000;
 }
 
 .footer-addres-list {
