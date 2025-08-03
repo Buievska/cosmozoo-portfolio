@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/cosmozoo-portfolio/assets/main-VHzxEShR.js"></script>
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/contact-DfiTBcTF.css">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/contact-BrUv4E0n.css">
   </head>
   <body>
     <header class="header-section">
@@ -144,7 +144,31 @@
             </h2>
           </div>
           <div class="information-container">
-            <img src="" width="668" height="480" />
+            <picture class="main-container-img">
+              <source
+                class="main-img-desktop"
+                media="(min-width: 1440px)"
+                srcset="./img/contact/main-tablet.jpg"
+                width="1120"
+                height="560"
+              />
+
+              <source
+                class="main-img-tablet"
+                media="(min-width: 768px)"
+                srcset="./img/contact/main-desktop.jpg"
+                width="668"
+                height="904"
+              />
+
+              <img
+                class="main-img-mobile"
+                src="./img/contact/main-mobile.jpg"
+                alt="Night city"
+                width="378"
+                height="500"
+              />
+            </picture>
             <div class="information-container-text">
               <h3 class="information-title">Information</h3>
               <ul class="information-list">

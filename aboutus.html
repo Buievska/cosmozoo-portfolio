@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/cosmozoo-portfolio/assets/main-VHzxEShR.js"></script>
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/aboutus-BVEEvgly.css">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/aboutus-Cg7XST8w.css">
   </head>
   <body>
     <header class="header-section">
@@ -139,13 +139,31 @@
           <h1 class="main-title">
             We Don't Just Create — We Shape Brand Stories
           </h1>
-          <img
-            class="main-img"
-            src="./img/about-us/about-us-main.jpg"
-            alt="Two people"
-            width="378"
-            height="386"
-          />
+          <picture class="main-container-img">
+            <source
+              class="main-img-desktop"
+              media="(min-width: 1440px)"
+              srcset="./img/about-us/main-desktop.jpg"
+              width="1120"
+              height="560"
+            />
+
+            <source
+              class="main-img-tablet"
+              media="(min-width: 768px)"
+              srcset="./img/about-us/main-tablet.jpg"
+              width="668"
+              height="480"
+            />
+
+            <img
+              class="main-img-mobile"
+              src="./img/about-us/main-mobile.jpg"
+              alt="Two people"
+              width="378"
+              height="342"
+            />
+          </picture>
         </div>
       </section>
 
@@ -190,13 +208,31 @@
             </ul>
           </div>
 
-          <img
-            class="information-img"
-            src="./img/about-us/information.jpg"
-            alt="Photographer"
-            width="378"
-            height="393"
-          />
+          <picture class="information-container-img">
+            <source
+              class="information-img-desktop"
+              media="(min-width: 1440px)"
+              srcset="./img/about-us/information-desktop.jpg"
+              width="548"
+              height="548"
+            />
+
+            <source
+              class="information-img-tablet"
+              media="(min-width: 768px)"
+              srcset="./img/about-us/information-tablet.jpg"
+              width="668"
+              height="480"
+            />
+
+            <img
+              class="information-img-mobile"
+              src="./img/about-us/information-mobile.jpg"
+              alt="Cosmozoo team at work"
+              width="378"
+              height="342"
+            />
+          </picture>
         </div>
       </section>
 

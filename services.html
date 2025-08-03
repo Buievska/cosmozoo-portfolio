@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/cosmozoo-portfolio/assets/main-VHzxEShR.js"></script>
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/services-C_03C8ZT.css">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/services-BIGq0My3.css">
   </head>
   <body>
     <header class="header-section">
@@ -140,7 +140,34 @@
               >We Build Brands.</span
             >
           </h1>
-          <img src="" alt="" width="1120" height="560" />
+          <picture class="main-container-img" id="main-picture">
+            <source
+              class="main-img-desktop"
+              media="(min-width: 1440px)"
+              srcset="./img/services/main-desktop.jpg"
+              id="img-desktop"
+              width="1120"
+              height="560"
+            />
+
+            <source
+              class="main-img-tablet"
+              media="(min-width: 768px)"
+              srcset="./img/services/main-tablet.jpg"
+              id="img-tablet"
+              width="668"
+              height="904"
+            />
+
+            <img
+              class="main-img-mobile"
+              src="./img/services/main-mobile.jpg"
+              alt="Main photo"
+              id="img-mobile"
+              width="378"
+              height="500"
+            />
+          </picture>
           <div class="main-container-text">
             <p class="main-text">
               We are in the thick of the digital age, and video has become one
@@ -175,7 +202,26 @@
             intention and style.
           </p>
           <div class="service-photo">
-            <img src="" width="668" height="480" />
+            <div class="video-card">
+              <video
+                loop
+                autoplay
+                muted
+                poster="./img/services/services-1.jpg"
+                style="width: 100%"
+              >
+                <source
+                  src="./img/services/services-video-1.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="./img/services/services-video-1.webm"
+                  type="video/webm"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
             <div class="service-photo-text">
               <h3 class="service-photo-title">Photo & Video</h3>
               <ul class="service-photo-list">
@@ -211,7 +257,26 @@
             </div>
           </div>
           <div class="service-smm">
-            <img src="" width="668" height="480" />
+            <div class="video-card">
+              <video
+                loop
+                autoplay
+                muted
+                poster="./img/services/services-2.jpg"
+                style="width: 100%"
+              >
+                <source
+                  src="./img/services/services-video-2.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="./img/services/services-video-2.webm"
+                  type="video/webm"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
             <div class="service-smm-text">
               <h3 class="service-smm-title">Social media</h3>
               <ul class="service-smm-list">

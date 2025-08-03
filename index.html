@@ -21,7 +21,7 @@
     <script type="module" crossorigin src="/cosmozoo-portfolio/index.js"></script>
     <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/main-VHzxEShR.js">
     <link rel="modulepreload" crossorigin href="/cosmozoo-portfolio/assets/data-ft7-xUXK.js">
-    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/index-D12I4Oj5.css">
+    <link rel="stylesheet" crossorigin href="/cosmozoo-portfolio/assets/index-CwYPjOhO.css">
   </head>
   <body>
     <header class="header-section">
@@ -147,13 +147,31 @@
             </p>
           </div>
           <div class="main-border-img">
-            <img
-              src="./img/home/main-img.jpg"
-              alt="Two cars"
-              class="main-img"
-              width="378"
-              height="342"
-            />
+            <picture class="main-container-img" id="main-picture">
+              <source
+                class="main-img-desktop"
+                media="(min-width: 1440px)"
+                srcset="./img/home/main-desktop.jpg"
+                width="1120"
+                height="560"
+              />
+
+              <source
+                class="main-img-tablet"
+                media="(min-width: 768px)"
+                srcset="./img/home/main-tablet.jpg"
+                width="668"
+                height="480"
+              />
+
+              <img
+                class="main-img-mobile"
+                src="./img/home/main-mobile.jpg"
+                alt="Main photo"
+                width="378"
+                height="342"
+              />
+            </picture>
             <svg class="main-icon" width="91" height="91">
               <use href="./img/symbol-defs.svg#icon-home-contact"></use>
             </svg>
@@ -277,13 +295,31 @@
               </p>
             </li>
           </ul>
-          <img
-            src="./img/home/work-img.jpg"
-            class="work-img-car"
-            alt="White car"
-            width="378"
-            height="435"
-          />
+          <picture class="work-container-img" id="main-picture">
+            <source
+              class="work-img-desktop"
+              media="(min-width: 1440px)"
+              srcset="./img/home/nature-desktop.jpg"
+              width="1120"
+              height="560"
+            />
+
+            <source
+              class="work-img-tablet"
+              media="(min-width: 768px)"
+              srcset="./img/home/nature-tablet.jpg"
+              width="668"
+              height="904"
+            />
+
+            <img
+              class="work-img-mobile"
+              src="./img/home/nature-mobile.jpg"
+              alt="Nature"
+              width="378"
+              height="342"
+            />
+          </picture>
         </div>
       </section>
 
