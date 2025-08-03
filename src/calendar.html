@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Demo</title>
+    <link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/calendar.css" />
+  </head>
+  <body>
+    <header class="header-section">
+      <div class="container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo-link">
+            <svg class="header-logo" width="139" height="17">
+              <use href="./img/symbol-defs.svg#icon-logo-cosmozoo"></use>
+            </svg>
+          </a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="./index.html" class="header-item-title">Home</a>
+            </li>
+            <li class="header-item">
+              <a href="./aboutus.html" class="header-item-title">About Us</a>
+            </li>
+            <li class="header-item">
+              <a href="./services.html" class="header-item-title">Services</a>
+            </li>
+            <li class="header-item">
+              <a href="./portfolio.html" class="header-item-title"
+                >Portfolios</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="./contact.html" class="header-item-title">Contact Us</a>
+            </li>
+          </ul>
+          <a href="./calendar.html" class="header-btn">Book A Demo</a>
+        </nav>
+        <button type="button" class="header-menu">
+          <svg class="header-menu-link" width="38" height="29">
+            <use href="./img/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav">
+      <button class="close-btn" aria-label="Закрити меню">&times;</button>
+
+      <ul class="menu-link">
+        <li><a href="./index.html" class="menu-text">Home</a></li>
+        <li><a href="./aboutus.html" class="menu-text">About Us</a></li>
+        <li><a href="./services.html" class="menu-text">Services</a></li>
+        <li><a href="./portfolio.html" class="menu-text">Portfolios</a></li>
+        <li><a href="./contact.html" class="menu-text">Contact Us</a></li>
+      </ul>
+
+      <a href="./calendar.html" class="cta-button">Book a Demo</a>
+
+      <ul class="menu-list-sm">
+        <li class="menu-item-sm">
+          <a
+            href="https://www.instagram.com/cosmozoocinema/"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon-ins" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-instagram-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.facebook.com/share/16rAv4ntyb/?mibextid=wwXIfr"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.tiktok.com/@cosmozoo3?is_from_webapp=1&sender_device=pc"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-tiktok-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.youtube.com/@cosmozoo-b8r"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-youtube-icon"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="menu-item-sm">
+          <a
+            href="https://www.threads.com/@cosmozoocinema"
+            class="menu-link-sm"
+            target="_blank"
+          >
+            <svg class="menu-icon" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-threads-icon"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <div class="container">
+          <h1 class="calender-title">Book a Free Consultation</h1>
+          <p class="calendar-text">
+            Ready to talk details? Book a free 30-minute consultation so we can
+            understand your objectives and propose concrete ideas. Select a time
+            below to take the first step.
+          </p>
+          <!-- Calendly inline -->
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/cosmozoo-production/30min?background_color=000000&text_color=ffffff&primary_color=5e9dff"
+            style="min-width: 320px; height: 700px"
+          ></div>
+          <script
+            type="text/javascript"
+            src="https://assets.calendly.com/assets/external/widget.js"
+            async
+          ></script>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-logo-block">
+          <a href="/index.html" class="footer-logo-link">
+            <svg class="footer-logo" width="210" height="69">
+              <use href="./img/symbol-defs.svg#icon-logo-cosmozoo"></use>
+            </svg>
+          </a>
+        </div>
+
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a href="./index.html" class="footer-nav-link">Home</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./aboutus.html" class="footer-nav-link">About Us</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./services.html" class="footer-nav-link">Services</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./portfolio.html" class="footer-nav-link">Portfolios</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="./contact.html" class="footer-nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer-list-media">
+          <li class="footer-item-media">
+            <a href="https://www.instagram.com/cosmozoocinema/" target="_blank">
+              <svg class="menu-icon-ins" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-instagram-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://www.facebook.com/share/16rAv4ntyb/?mibextid=wwXIfr"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a
+              href="https://www.tiktok.com/@cosmozoo3?is_from_webapp=1&sender_device=pc"
+              target="_blank"
+            >
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-tiktok-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a href="https://www.youtube.com/@cosmozoo-b8r" target="_blank">
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-youtube-icon"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item-media">
+            <a href="https://www.threads.com/@cosmozoocinema" target="_blank">
+              <svg class="menu-icon" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-threads-icon"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <address class="footer-addres">
+          <ul class="footer-addres-list">
+            <li class="footer-addres-item">
+              <a href="" class="footer-addres-link" target="_blank"
+                >Los Angeles, California</a
+              >
+            </li>
+            <li class="footer-addres-item">
+              <a
+                href="tel:+19162980084"
+                class="footer-addres-link"
+                target="_blank"
+                >+1 (916) 298-0084</a
+              >
+            </li>
+            <li class="footer-addres-item">
+              <a
+                href="mailto:cosmozoo.production@gmail.com"
+                class="footer-addres-link"
+                target="_blank"
+                >cosmozoo.production@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <div class="footer-privacy">
+          <p class="footer-privacy-text">
+            © Copyright 2025 Cosmozoo. All Rights Reserved
+          </p>
+          <ul class="footer-privacy-list">
+            <li class="footer-privacy-item">
+              <a href="" class="footer-privacy-link" target="_blank"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-privacy-item">
+              <a href="" class="footer-privacy-link" target="_blank"
+                >Terms & Conditions</a
+              >
+            </li>
+            <li class="footer-privacy-item">
+              <a href="" class="footer-privacy-link" target="_blank">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
