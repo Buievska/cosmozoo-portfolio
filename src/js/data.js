@@ -150,5 +150,379 @@ export const shoots = [
     ],
   },
 
+  {
+    id: 'sand',
+    title: 'Alone with the Tide',
+    description:
+      'A quiet conversation between the soul and the ocean, embodied in the sunset light. This series is an attempt to freeze the moment when the outside world falls silent, leaving room only for feelings. The frames, filled with soft rays and the breath of the tide, invite the viewer into a space where time becomes fluid. A silhouette against the horizon and the touch of the sun on the skin become metaphors for presence and self-discovery. This is a story about the simple elegance of being, told in the language of light and shadow.',
+    mainImageDesktop: {
+      path: './img/shoot/sand-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/sand-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/sand-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/sand-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/sand-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/sand-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/sand-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/sand-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/sand-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/sand-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/sand-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/sand-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'way-tea',
+    title: 'The Way of Tea',
+    description:
+      'The art of sharing silence. This shoot is a narrative about a simple act that becomes a bridge between people: an offered cup of tea. It`s not just a beverage, but a gesture of warmth, trust, and openness. The frames, bathed in soft light, capture the intimacy of the moment where gazes meet. The tea ceremony here is a metaphor for communication without words, a personal practice of mindfulness and connection with another.',
+    mainImageDesktop: {
+      path: './img/shoot/way-tea-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/way-tea-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/way-tea-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/way-tea-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/way-tea-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/way-tea-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/way-tea-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/way-tea-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/way-tea-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/way-tea-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/way-tea-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/way-tea-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'orange-fury',
+    title: 'Orange Fury',
+    description:
+      'The art of the predator. This photoshoot is a deep dive into the aesthetics of pure speed. The camera treats the car`s body as a landscape of sharp angles and flowing curves, where light reveals every detail. The molten orange shimmering on its surface and the sharp signature of the LED headlights create an image of barely contained energy. This is visual adrenaline, frozen in metal.',
+    mainImageDesktop: {
+      path: './img/shoot/orange-fury-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/orange-fury-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/orange-fury-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/orange-fury-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/orange-fury-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/orange-fury-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/orange-fury-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/orange-fury-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/orange-fury-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/orange-fury-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/orange-fury-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/orange-fury-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'hollywood-drive',
+    title: 'Hollywood Drive',
+    description:
+      'A story of a single day in the city of dreams, from the iconic hills to the ocean`s shore. This series is a journey where ambition meets the horizon, and progress harmonizes with classic style. The electric car here is not just transportation but a silent companion, reflecting the clear California sky and the city`s evening lights. This is a story about drive—in both the literal and figurative sense.',
+    mainImageDesktop: {
+      path: './img/shoot/hollywood-drive-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/hollywood-drive-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/hollywood-drive-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/hollywood-drive-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/hollywood-drive-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/hollywood-drive-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/hollywood-drive-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/hollywood-drive-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/hollywood-drive-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/hollywood-drive-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/hollywood-drive-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/hollywood-drive-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'timeless-elegance',
+    title: 'Timeless Elegance',
+    description:
+      'The embodiment of modern elegance. This photoshoot captures the spirit of a legendary marque, where heritage meets cutting-edge design. The iconic body lines and sophisticated color are paired with an interior that is a sanctuary of leather and wood. This is more than a drive; it is an experience of timeless sophistication and calm, confident power.',
+    mainImageDesktop: {
+      path: './img/shoot/timeless-elegance-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/timeless-elegance-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/timeless-elegance-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/timeless-elegance-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/timeless-elegance-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/timeless-elegance-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/timeless-elegance-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/timeless-elegance-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/timeless-elegance-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/timeless-elegance-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/timeless-elegance-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/timeless-elegance-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
   // ➕
 ];
