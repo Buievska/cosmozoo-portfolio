@@ -524,5 +524,305 @@ export const shoots = [
       },
     ],
   },
+
+  {
+    id: 'queen-desert',
+    title: 'Queen of the Desert Sea',
+    description:
+      'A myth born from dust. This series captures an otherworldly mirage: a queen of the ocean emerging from the heart of the desert. Her shimmering scales and crown of shells stand in defiant beauty against the arid landscape. This is a visual narrative about bringing your own ocean to the playa, and a testament to the limitless power of imagination.',
+    mainImageDesktop: {
+      path: './img/shoot/queen-desert-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/queen-desert-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/queen-desert-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/queen-desert-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/queen-desert-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/queen-desert-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/queen-desert-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/queen-desert-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/queen-desert-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/queen-desert-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/queen-desert-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/queen-desert-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'urban-style',
+    title: 'Urban Contrasts',
+    description:
+      'A tale of two cityscapes. This fashion story explores contrasts, moving from the graphic boldness of night lights to the relaxed chic of a sunlit street. The minimalist black-and-white palette of the outfit acts as a canvas, allowing style to be the main character against both a bright pink wall and classic architecture. It`s a study in modern urban elegance.',
+    mainImageDesktop: {
+      path: './img/shoot/urban-style-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/urban-style-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/urban-style-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/urban-style-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/urban-style-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/urban-style-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/urban-style-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/urban-style-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/urban-style-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/urban-style-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/urban-style-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/urban-style-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'shards-sunset',
+    title: 'Shards of Sunset',
+    description:
+      'Desert supernova. This look is pure futuristic energy, a human disco ball sending shards of light into the vastness. The geometric precision of the mirrors contrasts with the organic desert landscape, creating a vision from another world. This is the embodiment of festival energy: radiant, electric, and unapologetically bold.',
+    mainImageDesktop: {
+      path: './img/shoot/shards-sunset-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/shards-sunset-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/shards-sunset-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/shards-sunset-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/shards-sunset-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/shards-sunset-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/shards-sunset-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/shards-sunset-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/shards-sunset-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/shards-sunset-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/shards-sunset-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/shards-sunset-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'simply-hollywood',
+    title: 'Simply in Hollywood',
+    description:
+      'The Hollywood chapter. This is more than just a location; it`s a state of mind. Bathed in classic California sun, these photos strip away the noise to focus on a single, genuine moment. The simple white tee and authentic expressions speak of clarity and purpose. It`s about being present and hopeful in a city built on what`s next.',
+    mainImageDesktop: {
+      path: './img/shoot/simply-hollywood-main-desktop.jpg',
+      width: 1120,
+      height: 560,
+    },
+    mainImageTablet: {
+      path: './img/shoot/simply-hollywood-main-tablet.jpg',
+      width: 668,
+      height: 904,
+    },
+    mainImageMobile: {
+      path: './img/shoot/simply-hollywood-main-mobile.jpg',
+      width: 378,
+      height: 500,
+    },
+    extraImages: [
+      {
+        desktop: {
+          path: './img/shoot/simply-hollywood-1-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/simply-hollywood-1-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/simply-hollywood-1-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/simply-hollywood-2-desktop.jpg',
+          width: 548,
+          height: 548,
+        },
+        tablet: {
+          path: './img/shoot/simply-hollywood-2-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/simply-hollywood-2-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+      {
+        desktop: {
+          path: './img/shoot/simply-hollywood-3-desktop.jpg',
+          width: 1120,
+          height: 560,
+        },
+        tablet: {
+          path: './img/shoot/simply-hollywood-3-tablet.jpg',
+          width: 668,
+          height: 904,
+        },
+        mobile: {
+          path: './img/shoot/simply-hollywood-3-mobile.jpg',
+          width: 378,
+          height: 500,
+        },
+      },
+    ],
+  },
   // ➕
 ];

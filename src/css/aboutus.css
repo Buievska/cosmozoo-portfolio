@@ -135,6 +135,7 @@ section {
     align-items: center;
     justify-content: space-between;
     gap: 120px;
+    width: 100%;
   }
 
   .header-logo {
@@ -151,7 +152,7 @@ section {
   .header-item-title {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1.5;
     letter-spacing: -0.03em;
     color: #fff;
@@ -220,7 +221,7 @@ section {
   }
 }
 
-/* --- СТИЛІ ДЛЯ МОБІЛЬНОГО МЕНЮ--- */
+/* ---  Mobile menu --- */
 .mobile-nav {
   position: fixed;
   top: 0;
@@ -304,52 +305,19 @@ section {
 }
 
 @media screen and (min-width: 768px) {
-  /* Тепер збільшуємо елементи всередині самого виїжджаючого меню */
   .mobile-nav ul li a {
-    font-size: 2rem; /* ~32px */
+    font-size: 32px;
   }
 
   .mobile-nav .cta-button {
     padding: 20px 40px;
-    font-size: 1.1rem; /* ~18px */
+    font-size: 18px;
   }
 
   .mobile-nav .social-icons a {
     width: 55px;
     height: 55px;
-    font-size: 1.5rem; /* ~24px */
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .header-section .container {
-    padding: 24px 160px;
-  }
-
-  .header-menu {
-    display: none;
-  }
-
-  .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .header-list {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .header-item-title {
-    font-size: 16px;
-  }
-
-  .header-btn {
-    display: inline-flex;
-    padding: 16px 32px;
+    font-size: 24px;
   }
 }
 
@@ -724,6 +692,11 @@ section {
   height: 56px;
   background: #fff;
   gap: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.auxiliary-btn:hover {
+  transform: scale(1.05);
 }
 
 .arow-icon {
@@ -791,6 +764,11 @@ section {
 
 .footer-section {
   padding-top: 30px;
+}
+
+.footer-section .container {
+  border-top: 1px solid #343839;
+  padding: 16px 0px;
 }
 
 .footer-logo-block {
@@ -915,6 +893,37 @@ section {
 
   .footer-list-media {
     flex-direction: row;
+  }
+
+  .footer-nav-link {
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+  }
+
+  .footer-nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+  }
+
+  .footer-nav-link:hover,
+  .footer-nav-link:focus {
+    color: #fff;
+    outline: none;
+  }
+
+  .footer-nav-link:hover::after,
+  .footer-nav-link:focus::after {
+    transform: scaleX(1);
+    transform-origin: left;
   }
 
   .footer-addres-list {
